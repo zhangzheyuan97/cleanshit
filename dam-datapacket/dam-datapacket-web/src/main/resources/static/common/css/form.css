@@ -1,0 +1,54 @@
+.required:before {
+    content: '*';
+    color: red;
+    margin-right: 4px;
+    position: relative;
+    top: 4px;
+    font-size: 16px;
+}
+.daiglog-form{
+    width:100%;
+    height:100%;
+    padding: 32px 48px;
+}
+.form-group{
+    margin-top: 32px;
+    margin-bottom: 16px;
+    height: 32px;
+    width: 420px;
+}
+
+.form-group:first-child{
+    margin-top: 0;
+}
+.form-row{
+    margin-top: 16px;
+}
+.form-row:first-child{
+    margin-top: 0;
+}
+.form-row-item{
+    display: block;
+}
+.form-lable,
+.form-input{
+    vertical-align: middle;
+}
+.form-lable+textarea{
+    vertical-align: top;
+}
+.form-row-item .form-lable,
+.form-row-item .form-input{
+    display: inline-block;
+}
+.form-lable{
+    width: 120px;
+    color: #585f66;
+    font-size: 14px;
+    text-align: left;
+    text-overflow: ellipsis;
+    line-height: 22px;
+}
+.form-input{
+    width: 300px;
+}

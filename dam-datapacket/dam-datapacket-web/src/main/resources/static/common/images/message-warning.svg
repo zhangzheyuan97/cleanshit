@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>16-控件/状态/warning</title>
+    <g id="16-控件/状态/warning" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,10 C8.55228475,10 9,10.4477153 9,11 C9,11.5522847 8.55228475,12 8,12 C7.44771525,12 7,11.5522847 7,11 C7,10.4477153 7.44771525,10 8,10 Z M8,3 C8.41421356,3 8.75,3.33578644 8.75,3.75 L8.75,8.25 C8.75,8.66421356 8.41421356,9 8,9 C7.58578644,9 7.25,8.66421356 7.25,8.25 L7.25,3.75 C7.25,3.33578644 7.58578644,3 8,3 Z"
+              id="warning" fill="#fff" fill-rule="nonzero"></path>
+    </g>
+</svg>

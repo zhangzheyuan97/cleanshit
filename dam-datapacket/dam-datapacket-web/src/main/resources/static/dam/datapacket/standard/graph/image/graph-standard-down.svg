@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>数据标准/统计/标准下发对象-转曲</title>
+    <g id="数据标准/统计/标准下发对象-转曲" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M54,10 L54,22 L10,22 L10,10 L54,10 Z M52,12 L12,12 L12,20 L52,20 L52,12 Z" id="矩形" fill="#585F66" fill-rule="nonzero"></path>
+        <rect id="矩形" fill="#2E8AE6" x="24" y="26" width="30" height="12"></rect>
+        <rect id="矩形" fill="#2E8AE6" x="24" y="42" width="30" height="12"></rect>
+        <path d="M16.2071068,26.7855339 L17.6213203,28.1997475 L21.863961,32.4423882 L20.4497475,33.8566017 L17.2062525,30.6135339 L17.2071068,39.1997475 L15.2071068,39.1997475 L15.2062525,30.6145339 L11.9644661,33.8566017 L10.5502525,32.4423882 L16.2071068,26.7855339 Z" id="Combined-Shape" fill="#585F66" fill-rule="nonzero" transform="translate(16.207107, 32.992641) rotate(90.000000) translate(-16.207107, -32.992641) "></path>
+        <path d="M16.2071068,42.7855339 L17.6213203,44.1997475 L21.863961,48.4423882 L20.4497475,49.8566017 L17.2062525,46.6135339 L17.2071068,55.1997475 L15.2071068,55.1997475 L15.2062525,46.6145339 L11.9644661,49.8566017 L10.5502525,48.4423882 L16.2071068,42.7855339 Z" id="Combined-Shape" fill="#585F66" fill-rule="nonzero" transform="translate(16.207107, 48.992641) rotate(90.000000) translate(-16.207107, -48.992641) "></path>
+        <rect id="矩形" fill="#585F66" x="10" y="27" width="2" height="7"></rect>
+        <rect id="矩形" fill="#585F66" x="10" y="43" width="2" height="7"></rect>
+    </g>
+</svg>

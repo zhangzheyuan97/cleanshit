@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>数据标准/统计/数据元-转曲</title>
+    <g id="数据标准/统计/数据元-转曲" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" fill="#2E8AE6" x="10" y="10" width="44" height="12"></rect>
+        <path d="M54,26 L54,38 L10,38 L10,26 L54,26 Z M52,28 L12,28 L12,36 L52,36 L52,28 Z" id="矩形" fill="#585F66" fill-rule="nonzero"></path>
+        <path d="M54,42 L54,54 L10,54 L10,42 L54,42 Z M52,44 L12,44 L12,52 L52,52 L52,44 Z" id="矩形" fill="#585F66" fill-rule="nonzero"></path>
+    </g>
+</svg>

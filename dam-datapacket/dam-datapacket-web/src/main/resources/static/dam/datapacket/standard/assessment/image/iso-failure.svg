@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>16-控件/状态/error-delete</title>
+    <defs>
+        <path d="M8,3.5 C8.41421356,3.5 8.75,3.90294373 8.75,4.4 L8.75,7.25 L11.6,7.25 C12.0970563,7.25 12.5,7.58578644 12.5,8 C12.5,8.41421356 12.0970563,8.75 11.6,8.75 L8.75,8.75 L8.75,11.6 C8.75,12.0970563 8.41421356,12.5 8,12.5 C7.58578644,12.5 7.25,12.0970563 7.25,11.6 L7.25,8.75 L4.4,8.75 C3.90294373,8.75 3.5,8.41421356 3.5,8 C3.5,7.58578644 3.90294373,7.25 4.4,7.25 L7.25,7.25 L7.25,4.4 C7.25,3.90294373 7.58578644,3.5 8,3.5 Z" id="path-1"></path>
+    </defs>
+    <g id="16-控件/状态/error-delete" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="error-delete-close" fill="#ffffff" fill-rule="nonzero" transform="translate(8.000000, 8.000000) rotate(45.000000) translate(-8.000000, -8.000000) " xlink:href="#path-1"></use>
+    </g>
+</svg>

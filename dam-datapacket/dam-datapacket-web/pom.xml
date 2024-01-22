@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.meritdata.dam</groupId>
+        <artifactId>dam-datapacket</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <artifactId>dam-datapacket-web</artifactId>
+    <version>${dam.release.version}</version>
+    <description>数据管理服务静态资源</description>
+    <dependencies>
+        <dependency>
+            <groupId>com.meritdata.cloud</groupId>
+            <artifactId>cloud-module-mui</artifactId>
+            <version>${cloud.release.version}</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <!--使配置文件可以直接读取pom中的系统参数 -->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+                <excludes>
+                    <exclude>**/*.xls</exclude>
+                    <exclude>**/*.xlsx</exclude>
+                </excludes>
+                <filtering>true</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+                <includes>
+                    <include>**/*.xls</include>
+                    <include>**/*.xlsx</include>
+                </includes>
+            </resource>
+        </resources>
+        <plugins>
+            <!-- css、js文件打包后添加版本号插件 -->
+            <plugin>
+                <groupId>com.google.code.maven-replacer-plugin</groupId>
+                <artifactId>replacer</artifactId>
+                <version>1.5.3</version>
+                <executions>
+                    <execution>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>replace</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <basedir>${project.build.directory}</basedir>
+                    <includes>
+                        <include>**/*.ftl</include>
+                    </includes>
+                    <replacements>
+                        <replacement>
+                            <token>\.css\"</token>
+                            <value>.css?v=${maven.build.timestamp}\"</value>
+                        </replacement>
+                        <replacement>
+                            <token>\.css\'</token>
+                            <value>.css?v=${maven.build.timestamp}\'</value>
+                        </replacement>
+                        <replacement>
+                            <token>\.js\"</token>
+                            <value>.js?v=${maven.build.timestamp}\"</value>
+                        </replacement>
+                        <replacement>
+                            <token>\.js\'</token>
+                            <value>.js?v=${maven.build.timestamp}\'</value>
+                        </replacement>
+                    </replacements>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,9 @@
+@media screen and (max-width: 1440px) {
+    #dam_metamanage_model_manage_gridToolbar validatebox-text,
+    #dam_metamanage_model_manage_gridToolbar combo{
+        width: 78px !important;
+    }
+    #dam_metamanage_model_manage_gridToolbar a.l-btn .l-btn-left {
+        padding: 0 9px;
+    }
+}

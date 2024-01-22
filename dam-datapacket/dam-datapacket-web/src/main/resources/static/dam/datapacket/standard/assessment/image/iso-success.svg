@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>16-控件/状态/selected</title>
+    <defs>
+        <path d="M11.4865091,5.20335148 C11.788416,4.9197583 12.2630576,4.9346045 12.5466508,5.23651141 C12.830244,5.53841832 12.8153978,6.01305993 12.5134909,6.29665311 L7.51349088,11.0540124 C7.21823779,11.3313554 6.75610797,11.3241297 6.46966991,11.0376917 L3.46966991,8.03769169 C3.1767767,7.74479848 3.1767767,7.26992474 3.46966991,6.97703152 C3.76256313,6.6841383 4.23743687,6.6841383 4.53033009,6.97703152 L7.01632871,9.46303015 L11.4865091,5.20335148 Z" id="path-1"></path>
+    </defs>
+    <g id="16-控件/状态/selected" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="selected" fill="#ffffff" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

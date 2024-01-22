@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>16-控件/angle/right</title>
+    <g id="16-控件/angle/right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M11.8000221,5.9 C12.1313929,5.65147186 12.6014939,5.71862915 12.8500221,6.05 C13.0985502,6.38137085 13.0313929,6.85147186 12.7000221,7.1 L8.70002207,10.1 C8.4333554,10.3 8.06668874,10.3 7.80002207,10.1 L3.80002207,7.1 C3.46865122,6.85147186 3.40149393,6.38137085 3.65002207,6.05 C3.89855021,5.71862915 4.36865122,5.65147186 4.70002207,5.9 L8.25002207,8.5625 L11.8000221,5.9 Z" id="right" fill="#1A1A1A" fill-rule="nonzero" transform="translate(8.250022, 7.999978) rotate(-90.000000) translate(-8.250022, -7.999978) "></path>
+    </g>
+</svg>

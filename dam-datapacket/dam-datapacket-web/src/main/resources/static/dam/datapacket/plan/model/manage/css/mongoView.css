@@ -1,0 +1,35 @@
+.tabs span.tabs-p-tool {
+    top: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.tabs a.icon-remove {
+    width: 15px;
+    height: 15px;
+    background-size: 15px;
+}
+
+.tabs li .addTab {
+    margin-left: 5px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    margin-top: 3px;
+    background: url(../image/add.png) no-repeat 0 bottom;
+}
+
+
+.icon-remove {
+    background: url(../image/noimage.png) no-repeat 0 bottom;
+}
+
+.tabTitle {
+    background-color: transparent;
+    width: 60px;
+    border: none;
+    color: #03a9f5;
+    line-height: 20px;
+    font-weight: bold;
+}

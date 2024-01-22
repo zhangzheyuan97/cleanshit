@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>数据标准/统计/贯标评分-转曲</title>
+    <g id="数据标准/统计/贯标评分-转曲" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M54,10 L54,54 L10,54 L10,10 L54,10 Z M52,12 L12,12 L12,52 L52,52 L52,12 Z" id="矩形" fill="#585F66" fill-rule="nonzero"></path>
+        <polygon id="矩形" fill="#2E8AE6" fill-rule="nonzero" points="44 36 44 40 20 40 20 36"></polygon>
+        <polygon id="矩形" fill="#2E8AE6" fill-rule="nonzero" points="48 44 48 48 16 48 16 44"></polygon>
+        <polygon id="星形" fill="#2E8AE6" points="21 28.5 18.0610737 30.045085 18.6223587 26.7725425 16.2447174 24.454915 19.5305369 23.9774575 21 21 22.4694631 23.9774575 25.7552826 24.454915 23.3776413 26.7725425 23.9389263 30.045085"></polygon>
+        <polygon id="星形" fill="#2E8AE6" points="32 25.5 27.8855032 27.663119 28.6713022 23.0815595 25.3426044 19.836881 29.9427516 19.1684405 32 15 34.0572484 19.1684405 38.6573956 19.836881 35.3286978 23.0815595 36.1144968 27.663119"></polygon>
+        <polygon id="星形" fill="#2E8AE6" points="43 28.5 40.0610737 30.045085 40.6223587 26.7725425 38.2447174 24.454915 41.5305369 23.9774575 43 21 44.4694631 23.9774575 47.7552826 24.454915 45.3776413 26.7725425 45.9389263 30.045085"></polygon>
+    </g>
+</svg>

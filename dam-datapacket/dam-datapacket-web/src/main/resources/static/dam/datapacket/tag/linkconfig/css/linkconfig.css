@@ -1,0 +1,113 @@
+#big_2 {
+    border: 0px;
+    height: 830px;
+    width: auto;
+    margin-left: 48px;
+    padding: 0px;
+    overflow-y: auto;
+}
+
+.standard-pic-style {
+    padding: 10px;
+    color: #2E8AE6;
+
+}
+
+.standard-title-style {
+    font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+    font-size: 16px;
+    color: #3D4247;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 600;
+}
+.ds{
+    margin-top:28px;
+}
+
+.big_2_diva {
+    width: 420px;
+    border: 1px solid #2E8AE6;
+    border-radius: 2px;
+    background-color: #dcebfa;
+    padding-left: 12px;
+}
+
+.big_2_sp {
+    font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    color: #2E8AE6;
+    letter-spacing: 0;
+    line-height: 39px;
+    font-weight: 400;
+}
+
+
+.big_2_sp2 {
+    padding: 1px 4px 1px 7px;
+    width: 4px;
+    height: 4px;
+    border: 1px solid #2E8AE6;
+    border-radius: 50%;
+    background-color: #2E8AE6;
+    color: #FFFFFF;
+    font-size: 2px;
+}
+
+.big_2_divb {
+    width: 420px;
+    padding: 0px;
+    margin-top: 16px;
+}
+
+.big_2_divc {
+    margin-top: 16px;
+    width: 160px;
+    height: 24px;
+    display: inline;
+    overflow: hidden;
+    box-sizing: border-box;
+    word-break: break-all;
+    white-space: normal;
+
+}
+
+.in_sp {
+    font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    color: #585F66;
+    letter-spacing: 0;
+    line-height: 42px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+.big_2_div{
+    width:100%;
+    margin-top: 20px ;
+}
+.big_2_div table{
+    margin-top: 16px;
+    width: 486px;
+    height: 24px;
+    border: 0px #FFFFFF solid;
+}
+
+.big_2_div table tr{
+    line-height: 40px;
+}
+.big_2_div table tr td{
+    width: 160px;
+    border: 0px #FFFFFF solid;
+}
+.big_2_div table tr td input{
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin: 12px 0;
+}
+/*
+.checkbox_div{
+
+    width: 16px;
+    height: 100%;
+}*/

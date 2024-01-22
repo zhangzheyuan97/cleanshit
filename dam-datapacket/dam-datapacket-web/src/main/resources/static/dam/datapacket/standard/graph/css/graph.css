@@ -1,0 +1,361 @@
+
+body, div, ul, li, h1, h2, h3, h4, h5, img.span, label {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+    font-size: 12px;
+    color: #585858;
+    width: 100%;
+    height: 100%;
+    background: #e8eef9;
+}
+
+.basic {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    white-space: normal;
+}
+
+.header {
+    width: 100%;
+    height: 11%;
+    line-height: 11%;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+.header ul {
+    list-style: none;
+    height: 50px;
+    line-height: 40px;
+    padding: 15px 0 30px 40px;
+}
+
+.header.resetHeader ul li {
+    float: left;
+    position: relative;
+    width: 24%;
+    border-right: 1px solid #dddddd;
+}
+
+.header ul li:last-child {
+    border: none;
+}
+
+.header.resetHeader .header_img {
+    margin-left: 35%;
+}
+
+.header ul li {
+    float: left;
+    position: relative;
+    width: 19%;
+    border-right: 1px solid #dddddd;
+}
+
+.header_img {
+    width: 20%;
+    height: 8%;
+    margin-top: 5px;
+    float: left;
+    opacity: 0.8;
+    margin-left: 22%;
+    margin-right: 5%;
+}
+
+.header li > div {
+    float: left;
+    padding: 16px 0px 12px 0px;
+}
+
+.header div span {
+    font-size: 14px;
+    color: #585F66;
+    font-weight: 800;
+    display: block;
+    height: 14px;
+    line-height: 14px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+
+.header div h5:first-child {
+    /*font-size: 14px;*/
+    color: #2E8AE6;
+    margin: 0;
+    padding: 0;
+
+    font-size: 18px;
+    font-weight: 800;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+}
+
+#hBasic,
+.header div h5:nth-child(2) {
+    font-size: 12px;
+    color: #575757;
+    font-weight: 800;
+    display: block;
+    height: 18px;
+    line-height: 22px;
+    float: left;
+}
+
+#hBasic {
+    float: right;
+}
+
+.middle, .bottom, .center {
+    width: 100%;
+    height: 43%;
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.standard_title {
+    width: 85px;
+    font-family: PingFangSC-Semibold;
+    font-size: 16px;
+    line-height: 38px;
+    letter-spacing: 0px;
+    color: #3D4247;
+    font-weight: 600;
+}
+.standard_pic {
+    padding: 15px 1px 10px 20px;
+    color: #409EFF;
+}
+
+.element_enum_title {
+    font-family: PingFangSC-Semibold;
+    font-size: 14px;
+    color: #3D4247;
+    letter-spacing: 0;
+    line-height: 22px;
+    font-weight: 600;
+}
+.element_enum_div {
+    width: 50%;
+    float: left;
+}
+
+.bottom {
+    height: 46%;
+}
+
+.middle_layout, .bottom_layout {
+    height: 100%;
+    width: 50%;
+    background: #ffffff;
+    display: inline-block;
+    position: relative;
+}
+
+.middle_left, .bottom_left {
+    margin-right: 8px;
+    width: 40%;
+}
+
+.middle_right, .bottom_right {
+    width: 60%;
+}
+
+.image_tow, .imgs_bottom {
+    width: auto;
+    height: 85%;
+}
+
+.center ul,
+.middle ul {
+    list-style: none;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.middle ul li {
+    float: right;
+    height: 100%;
+    border: solid 1px #e1e7ee;
+    font-size: 12px;
+    color: #575757;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.active {
+    background: #528fff !important;
+    color: #ffffff !important;
+}
+
+
+/*设置媒体查询*/
+@media screen and (max-height: 850px) {
+    .header ul {
+        padding: 20px 4px;
+    }
+
+    .header ul li {
+        width: 19%;
+    }
+
+    .header div span {
+        font-size: 12px;
+    }
+
+    .header_img {
+        margin-left: 6%;
+        margin-right: 3%;
+    }
+}
+
+
+.center ul li {
+    border: 1px solid #dddddd;
+    background: #e9edfa;
+    margin-right: 2px;
+    border-radius: 3px;
+    color: #575757;
+    padding: 3px 6px;
+    float: left;
+    cursor: pointer;
+}
+
+.center .heading_1 {
+    margin-bottom: 1%;
+}
+
+.text_one {
+    width: 100%;
+    height: 90%;
+}
+
+.element_div {
+    margin-left: 3%;
+    width: 47%;
+    float: left;
+    height: 100%;
+    margin-top: 9px
+}
+
+.enum_div {
+    width: 47%;
+    float: left;
+    height: 100%;
+    margin-top: 9px
+}
+.element_enum_span {
+    ont-family: PingFangSC-Semibold;
+    font-size: 14px;
+    color: #3D4247;
+    letter-spacing: 0;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.title_data {
+    height: 32%;
+    border-bottom: 1px solid #dddddd;
+    /*padding-top: 20%;*/
+}
+.title_data >p {
+    padding-top: 18%;
+}
+.title_data:last-child {
+    border: none;
+}
+
+.title_data p span {
+    height: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #b1b1b1;
+}
+
+.title_data h5 {
+    width: 30px;
+    height: 13px;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-top: 8%;
+    margin-left: 4%;
+}
+
+.more_foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    line-height: 10%;
+    width: 100%;
+}
+
+.assets_div_table {
+    height: 90%;
+    width: 100%;
+}
+
+table {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    line-height: 24px;
+    width: 100%;
+}
+
+.tr_th th {
+    background-color: #eaeff5;
+    font-size: 14px;
+}
+
+.more_foot span:nth-child(1) {
+    color: #333333;
+    font-size: 12px;
+    font-weight: 700;
+    display: block;
+}
+
+.more_foot span:nth-child(2) {
+    color: #575757;
+    font-size: 12px;
+    display: block;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+.more_foot span:nth-child(2):hover {
+    color: #528fff;
+    font-size: 12px;
+    display: block;
+    cursor: pointer;
+    margin-right: 4px;
+}
+.comment_no_data_style{
+    background: url(../image/no_data.png) no-repeat center center;
+    background-size: 200px;
+}
+@media screen and (max-width: 1440px) {
+    .center p, .middle p, .bottom p{
+        height: 0px;
+    }
+    .center ul, .middle ul {
+        top: 2%;
+    }
+    .title_data h5 {
+        font-size: 12px;
+        margin-top: 25%;
+    }
+}

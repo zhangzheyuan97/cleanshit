@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.meritdata.dam</groupId>
+        <artifactId>cloud-dmp-parent</artifactId>
+        <version>6.5.RELEASE</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>dam-datapacket</artifactId>
+    <packaging>pom</packaging>
+    <description>电子数据包</description>
+    <properties>
+        <sonar.qualitygate.wait>true</sonar.qualitygate.wait>
+    </properties>
+    <modules>
+        <module>dam-datapacket-web</module>
+        <module>dam-datapacket-server</module>
+    </modules>
+
+</project>

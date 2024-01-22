@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.box {
+    margin: 16px 16px 0;
+}
+div .bootstrap-tagsinput:active,
+div .bootstrap-tagsinput:focus,
+div .bootstrap-tagsinput:hover{
+    border-color:#2E8AE6;
+}
+
+.bootstrap-tagsinput {
+    background-color: white;
+    border: 2px solid #ebedef;
+    border-radius: 6px;
+    margin-bottom: 18px;
+    padding: 6px 1px 1px 6px;
+    text-align: left;
+    font-size: 0;
+}
+
+.bootstrap-tagsinput .badge {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: .25s linear;
+    padding: 2px 12px;
+    margin: 4px;
+    font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 400;
+    border: 1px solid #E1E9F0;
+    border-radius: 32px;
+    color: #2E8AE6;
+    background: #DCEBFA;
+}
+
+.bootstrap-tagsinput .badge > span {
+    color: white;
+    padding: 0 10px 0 0;
+    cursor: pointer;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    text-decoration: none;
+    top: 0;
+    width: 10px;
+    bottom: 0;
+    z-index: 2;
+}
+
+
+@media (hover: hover) {
+    .bootstrap-tagsinput .badge {
+        padding: 2px 12px;
+    }
+
+    .bootstrap-tagsinput .badge > span {
+        opacity: 0;
+        filter: "alpha(opacity=0)";
+        transition: opacity .25s linear;
+    }
+
+    .bootstrap-tagsinput .badge:hover {
+        padding-right: 30px;
+        padding-left: 12px;
+    }
+
+    .bootstrap-tagsinput .badge:hover > span {
+        opacity: 1;
+        -webkit-filter: none;
+        filter: none;
+        background: url(../image/close.svg) no-repeat center center;
+        background-size: 16px;
+        width: 16px;
+    }
+}
+
+.bootstrap-tagsinput input[type="text"] {
+    font-size: 14px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    margin-left: 5px;
+   /* width: auto !important;*/
+    max-width: inherit;
+    /*min-width: 40px;*/
+    vertical-align: top;
+    height: 32px;
+    color: #34495e;
+}
+
+.tagsinput-primary {
+    margin-bottom: 18px;
+}
+
+.tagsinput-primary .bootstrap-tagsinput {
+    border: 1px solid #E1E9F0;
+    border-radius: 2px;
+    height: 80px;
+    overflow-y: auto;
+}
+
+.tagsinput-primary .badge {
+    color: #585F66;
+    background: #DCEBFA;
+}
+
+.btn {
+    background: #1ABC9C;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.box .sTags {
+    /*height: 170px;*/
+    /*border-bottom: 2px solid #E1E9F0;*/
+    overflow-y: auto;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.sTags {
+    float: left;
+}
+
+.sTags > div,
+.sTags > a {
+    cursor: pointer;
+    display: inline-block;
+    padding: 2px 12px;
+    margin: 8px 4px;
+    background: #ffffff;
+    font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    color: #585F66;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 400;
+    border: 1px solid #E1E9F0;
+    border-radius: 32px;
+    user-select: none;
+}
+
+.sTags-selected {
+    color: #2E8AE6 !important;
+    background: #DCEBFA !important;
+}
+
+.sTags-onlyRead > div {
+    color: #585F66 !important;
+    background: #DCEBFA !important;
+    user-select: none;
+}
+
+.sTagsqueryArea {
+    height: 32px;
+    margin: 4px 0;
+}
+
+.sTagsqueryArea span {
+    font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    color: #3D4247;
+    letter-spacing: 0;
+    line-height: 40px;
+    font-weight: 600;
+}
+.sTagsqueryArea input:active,
+.sTagsqueryArea input:focus,
+.sTagsqueryArea input:hover{
+    border-color:#2E8AE6;
+}
+.sTagsqueryArea input {
+    width: 160px;
+    border-radius: 2px;
+    border: 1px solid #e1e9f0;
+    float: right;
+    padding-left: 9px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.addTagButton {
+    /*width: 100px;*/
+    height: 28px;
+    border: 1px solid #E1E9F0;
+    border-radius: 32px;
+    font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    color: #585F66;
+    letter-spacing: 0;
+    line-height: 22px;
+    font-weight: 400;
+    background: #fff;
+    margin: 10px 4px;
+    padding: 0 12px;
+}
+
+.standard-pic-style {
+    padding: 10px;
+    color: #2E8AE6;
+
+}
+
+.standard-title-style {
+    font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+    font-size: 16px;
+    color: #3D4247;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.tagListOutterDiv {
+    margin: 0 48px 0;
+    overflow-y: auto;
+    height: 570px;
+
+}
+
+.tagListItemDiv {
+    margin-top: 26px;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,63 @@
+.button_all{
+    padding-left: 30px;
+    padding-top: 30px;
+    float: left;
+}
+.checked_button_style{
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    background: #5182e4;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 100px;
+    margin-left: 16px;
+    margin-right: 84px;
+}
+.unchecked_button_style {
+    width: 130px;
+    height: 35px;
+    /* border-bottom-width: 0px; */
+    color: #585858;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    border: none;
+    margin: 100px 80px 0px 20px;
+}
+.privilege_table{
+    /*padding-top: 30%;*/
+    /*padding-left: 30%;*/
+}
+.privilege_table tr {
+    /*height: 30%;*/
+    /*width: 30%;*/
+}
+.privilege_table td {
+    /*height: 30%;*/
+    /*width: 30%;*/
+}
+.uncheched_title {
+    margin-left: 4px;
+    color: #333333;
+    font-weight: bold;
+}
+.button_hint {
+    margin-left: 64px;
+}
+.button_hint_content {
+    font-weight: normal;
+}
+.tree_content_solid {
+    border-left: 1px solid #dddddd;
+   /*margin: 0 8px;*/
+    border-radius: 0 4px 4px 0 !important;
+}
+@media screen and (max-width: 1440px) {
+    .checked_button_style {
+        margin-right: 34px;
+    }
+}

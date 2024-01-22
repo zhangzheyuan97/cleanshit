@@ -1,0 +1,113 @@
+.addTagButton{
+    margin: 24px 48px !important;
+    /*width: 80px !important;*/
+    height: 32px !important;
+    line-height: 32px !important;
+    border-radius: 2px !important;
+}
+.addTagButton .l-btn-left{
+    padding-top: 5px !important;
+}
+.addTagButton .l-btn-left span{
+    font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+#tag-cont{
+    overflow-y: auto;
+    padding-left: 48px;
+}
+fieldset {
+    border: 0px solid #d8d3d3;
+    margin-top: 27px;
+    padding-left: 0;
+}
+legend{
+    margin-bottom: 10px;
+}
+.big_1 {
+    margin: 0px;
+    height:48px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #E1E9F0;
+}
+
+.big_1_sp {
+    font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    color: #3D4247;
+    letter-spacing: 0;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+.big_2 {
+    width: auto;
+    height: 32px;
+    margin-top: 24px;
+    margin-left: 38px;
+}
+
+.tag-group {
+    height: 22px;
+    width: auto;
+    margin-top: 27px;
+    margin-bottom: 10px;
+}
+
+.tag-group-label {
+    font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    color: #3D4247;
+    letter-spacing: 0;
+    line-height: 22px;
+    font-weight: 600
+}
+
+.tag-group-span {
+    background-color: #DCEBFA;
+    border-radius: 32px;
+    margin-right: 8px;
+    padding: 6px 12px;
+    font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    color: #585F66;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.tag-group-span-del {
+    /*line-height: 28px;*/
+    border: 0px;
+    background-color: #DCEBFA;
+    border-radius: 32px;
+    padding: 4px 4px
+}
+.tag-item{
+    float: left;
+    margin: 10px 8px 10px 0;
+}
+.imgsrc {
+    height: 16px;
+    width: 16px;
+    margin: 0px;
+
+}
+
+.closebut {
+    margin-left: 6px;
+    border: 0px;
+    background-color: #DCEBFA;
+    color: #2E8AE6;
+    width: 16px;
+    padding: 0px 3px 0px 1px;
+}
+
